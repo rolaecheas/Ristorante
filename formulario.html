@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ristorante || Registrarse </title>
+        <style> body {
+                background:crimson;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/registro.css">
+    <link href="https://file.myfontastic.com/HfxPCVnbJiGwSCMiH7Chq4/icons.css" rel="stylesheet">
+    <script src="js/validar.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Ristorante</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">987-657-556</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location">Urb Unsa - Arequipa-Perú</span>
+                </p>
+            </div>
+        </div>
+    </header>
+   <nav class="main-nav">
+       <container>
+           <div class="container container--flex">
+               <spam class="icon-menu" id="btnmenu"></spam>
+               <ul class="menu" id="menu">
+                   <li class="menu__item"><a href="index.html" class="menu__link menu">Inicio</a></li>
+                   <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                   <li class="menu__item"><a href="menu.html" class="menu__link">Menú</a></li>
+                   <li class="menu__item"><a href="local.html" class="menu__link ">Restaurante</a></li>
+                   <li class="menu__item"><a href="contacto.html" class="menu__link">Ubícanos</a></li>
+               </ul>
+             <ul class="menu" id="menu">
+                   <li class="menu__item"> <a href="registro.html" class="menu__link "> Registrarse </a> </li>
+                   <li class="menu__item"> <a href="formulario.html" class="menu__link menu__link--select"> Iniciar Sesión</a></li>
+                   
+               </ul>
+           </div>
+       </container>
+   </nav>
+      <p></p>
+      <center>
+     <form action="validar.php" method="post">
+       <h1> Ingresar </h1>
+       <input type="text" placeholder=" &#128272; Usuario" name="usuario">
+       <input type="password" placeholder=" &#128272; Contraseña" name="clave">
+       <input type="submit" value="Ingresar">
+   </form>
+</center>
+     <p></p>
+
+
+      <script src="js/menu.js"></script></script>
+
+</body>
+</html>
